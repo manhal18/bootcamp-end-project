@@ -17,28 +17,3 @@ body {
   width: 300px;
   height: 200px;
 }
-
-/* .parent{
-  padding: 10px 60px;
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  gap: 10px;
-}
-
-.child{
-  height: 300px;
-  border: 1px solid #113946;
-  border-radius: 5;
-}
-
-@media screen and (max-width: 992px) {
-  .parent{
-    grid-template-columns: repeat(3, auto);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .parent{
-    grid-template-columns: repeat(2, auto);
-  }
-} */

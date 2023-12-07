@@ -9,12 +9,12 @@ const Header = ({ search }) => {
     search(word)
   }
   return (
-    <div style={{position: "fixed"}} className="header-style w-100">
+    <header className="header-style w-100">
       <Container>
         <Row className="pt-1">
           <Col xs="2" lg="1">
             <Link to="/">
-                <img className="logo" alt="logo" src={logo} />
+                <img className="logo" alt="activities project" src={logo} />
             </Link>
           </Col>
           <Col xs="10" lg="11" className="d-flex align-items-center">
@@ -24,7 +24,7 @@ const Header = ({ search }) => {
           </Col>
         </Row>
       </Container>
-    </div>
+    </header>
   );
 };
 

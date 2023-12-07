@@ -1,9 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel'
-import { activities } from '../data/activities'
 import { Link } from 'react-router-dom';
 
-export default function Slider() {
-  let filtredActivities = activities.filter(a => (a.imagesCount > 0 && a.popular))
+export default function Slider(props) {
+  let filtredActivities = props.popularActivities.filter(a => a.imagesCount > 0)
   return (
     <Carousel className='position-relative' style={{top: "100px"}}>
     {

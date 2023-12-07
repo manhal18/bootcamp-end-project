@@ -1,8 +1,8 @@
-export let activities = [
+export let comingActivities = [
     {
         id: 1,
         category: {
-            id: 1,
+            id: 2,
             name: "konser"
         },
         title: "Geleceğin Bilişim Dünyası: İnovasyon, Güvenlik ve Sürdürülebilirlik Konferansı",
@@ -11,7 +11,7 @@ export let activities = [
         images: [],
         price: 50,
         popular: true,
-        date: '2013-03-10 02:30',
+        date: '2024-03-10 02:30',
         address: "Yıldırım Beyazıt Mahallesi E.Ü. TGB İdare ve Kuluçka, Aşık Veysel Blv. 28 3, 38010 Melikgazi",
         city: "Kayseri",
         location: {
@@ -32,9 +32,9 @@ export let activities = [
             "https://svd.vgc.no/v2/images/64c01443-5533-4646-ae76-f83343e19ed7?h=630&q=80&upscale=true&w=1200&s=7b87ac960ed6cb3e9f3d03dfed3d7aac893f2729",
             "https://ofo.imgix.net/Jubileum-ofk/OFO-og-OFK-Slottsplassen.jpg?auto=compress%2Cformat&crop=focalpoint&cs=srgb&fit=crop&fm=jpg&fp-x=0.5595&fp-y=0.7542&h=630&q=90&w=1200&s=a230d6f83171c8013b42b05422bc73de",
         ],
-        price: 50,
+        price: 500,
         popular: true,
-        date: '2013-03-10 02:30',
+        date: '2025-03-10 02:30',
         address: "Yıldırım Beyazıt Mahallesi E.Ü. TGB İdare ve Kuluçka, Aşık Veysel Blv. 28 3, 38010 Melikgazi",
         city: "Kayseri",
         location: {
@@ -57,7 +57,7 @@ export let activities = [
         ],
         price: 50,
         popular: true,
-        date: '2013-03-10 02:30',
+        date: '2025-03-10 02:30',
         address: "Yıldırım Beyazıt Mahallesi E.Ü. TGB İdare ve Kuluçka, Aşık Veysel Blv. 28 3, 38010 Melikgazi",
         city: "Kayseri",
         location: {
@@ -100,7 +100,7 @@ export let activities = [
         ],
         price: 50,
         popular: true,
-        date: '2013-03-10 02:30',
+        date: '2024-03-10 02:30',
         address: "Yıldırım Beyazıt Mahallesi E.Ü. TGB İdare ve Kuluçka, Aşık Veysel Blv. 28 3, 38010 Melikgazi",
         city: "Kayseri",
         location: {
@@ -120,7 +120,7 @@ export let activities = [
         images: [],
         price: 50,
         popular: true,
-        date: '2013-03-10 02:30',
+        date: '2023-12-10 02:30',
         address: "Yıldırım Beyazıt Mahallesi E.Ü. TGB İdare ve Kuluçka, Aşık Veysel Blv. 28 3, 38010 Melikgazi",
         city: "Kayseri",
         location: {
@@ -141,9 +141,9 @@ export let activities = [
             "https://svd.vgc.no/v2/images/64c01443-5533-4646-ae76-f83343e19ed7?h=630&q=80&upscale=true&w=1200&s=7b87ac960ed6cb3e9f3d03dfed3d7aac893f2729",
             "https://ofo.imgix.net/Jubileum-ofk/OFO-og-OFK-Slottsplassen.jpg?auto=compress%2Cformat&crop=focalpoint&cs=srgb&fit=crop&fm=jpg&fp-x=0.5595&fp-y=0.7542&h=630&q=90&w=1200&s=a230d6f83171c8013b42b05422bc73de",
         ],
-        price: 50,
+        price: 300,
         popular: true,
-        date: '2013-03-10 02:30',
+        date: '2023-12-10 02:30',
         address: "Yıldırım Beyazıt Mahallesi E.Ü. TGB İdare ve Kuluçka, Aşık Veysel Blv. 28 3, 38010 Melikgazi",
         city: "Kayseri",
         location: {
@@ -166,7 +166,7 @@ export let activities = [
         ],
         price: 50,
         popular: true,
-        date: '2013-03-10 02:30',
+        date: '2024-01-07 02:30',
         address: "Yıldırım Beyazıt Mahallesi E.Ü. TGB İdare ve Kuluçka, Aşık Veysel Blv. 28 3, 38010 Melikgazi",
         city: "Kayseri",
         location: {
@@ -184,9 +184,9 @@ export let activities = [
         description: "Günümüzde teknolojinin hızlı evrimiyle birlikte, bilişim dünyasında yeni fırsatlar ve zorluklar ortaya çıkıyor. Geleceğin Bilişim Dünyası: İnovasyon, Güvenlik ve Sürdürülebilirlik Konferansı olarak, bu değişimle başa çıkmak ve gelecekteki başarıları şekillendirmek isteyen bilişim profesyonellerini bir araya getiriyoruz.",
         imagesCount: 0,
         images: [],
-        price: 50,
+        price: 350,
         popular: false,
-        date: '2013-03-10 02:30',
+        date: '2024-01-07 02:30',
         address: "Yıldırım Beyazıt Mahallesi E.Ü. TGB İdare ve Kuluçka, Aşık Veysel Blv. 28 3, 38010 Melikgazi",
         city: "Kayseri",
         location: {
@@ -209,7 +209,7 @@ export let activities = [
         ],
         price: 50,
         popular: true,
-        date: '2013-03-10 02:30',
+        date: '2024-01-07 02:30',
         address: "Yıldırım Beyazıt Mahallesi E.Ü. TGB İdare ve Kuluçka, Aşık Veysel Blv. 28 3, 38010 Melikgazi",
         city: "Kayseri",
         location: {
@@ -217,20 +217,4 @@ export let activities = [
             lng: 35.53218994603618
         }
     },
-    // {
-    //     id: 6,
-    //     name: "bilim fuarları"
-    // },
-    // {
-    //     id: 7,
-    //     name: "spor"
-    // },
-    // {
-    //     id: 8,
-    //     name: "film ve medya"
-    // },
-    // {
-    //     id: 9,
-    //     name: "gönüllülük"
-    // },
 ]

@@ -43,7 +43,7 @@ const ActivityDetails = () => {
             </div>
             {/* <div style={{ height: '50vh', width: '40%', margin:"auto" }}>
                 <GoogleMapReact
-                    bootstrapURLKeys={{ key: "AIzaSyAuWTA4jcSAFCHtRHkJEgTMUmREoF6i16I" }}
+                    bootstrapURLKeys={{ key: "" }}
                     defaultCenter={defaultProps.center}
                     defaultZoom={defaultProps.zoom}
                 >

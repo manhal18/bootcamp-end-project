@@ -1,0 +1,23 @@
+.card{
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 991px) {
+    aside{
+      margin: 0px 58px;
+      display: block; 
+    }
+    .filter-column{
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(0,0,0, 0.9);
+      overflow-x: hidden;
+      z-index: 999;
+    }
+    .filter{
+      position: relative;
+      top: 25%;
+    }
+  }

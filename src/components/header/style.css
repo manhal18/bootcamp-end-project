@@ -1,6 +1,7 @@
 .header-style, .nav-style{
   z-index: 99;
   position: fixed;
+  top: 0;
 }
 
 .header-style {
@@ -9,9 +10,21 @@
 }
 
 .nav-style {
-  height: 40px;
   background-color: #DFA878;
-  top: 60px;
+  margin-top: 60px;
+}
+
+.nav-style ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 0px;
+}
+
+.nav-style li {
+  list-style: none;
+  margin: 0 5px;
 }
 
 .navbar-link{
@@ -21,8 +34,12 @@
   font-size: 15px;
 }
 
-.navbar-link:hover{
-  color: #082029;
+nav ul li:hover{
+  background-color: #F9E0BB;
+}
+
+nav ul li a:hover{
+  color: #113946;
 }
 
 .logo {
@@ -39,20 +56,6 @@
 .search input:focus {
   box-shadow: none;
   border: 2px solid #DFA878;
-}
-
-footer{
-  background-color: #C38154;
-  width: 100%;
-  height: 50px;
-  position: relative;
-  top: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 15px;
-  font-size: 17px;
-  font-weight: 500;
 }
 
 @media screen and (max-width: 480px) {

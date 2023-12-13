@@ -1,32 +1,11 @@
-body {
+* {
   margin: 0;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Cairo', sans-serif;
+  box-sizing: border-box;
 }
 
-.position-relative{
-  top: 100px;
-}
-
-aside{
-  position: relative;
-  top: 140px;
-  margin-left: 60px;
-  margin-bottom: 60px;
-}
-
-.form-check-input:checked {
-  background-color: #C38154;
-  border-color: #C38154;
-}
-
-#open-filter{
-  position: relative;
-  top: 120px;
-}
-
-.card{
-  border-radius: 10px;
-  margin-bottom: 20px;
+.mt-100px{
+  margin-top: 100px;
 }
 
 .card-header, button{
@@ -34,57 +13,17 @@ aside{
   color: #113946;
 }
 
-.cards-container{
-  flex-wrap: wrap;
-  gap: 14px;
-  margin: 40px 50px;
+#open-filter{
+  margin-left: 10%;
+  margin-bottom: 30px;
+}
+.form-check-input:checked{
+  background-color: #F9E0BB;
+  border-color: #F9E0BB;
 }
 
-.activity-card{
-  position: relative;
-  top: 100px;
-  margin-bottom: 20px;
-}
-
-.activity-card div p{
-  margin-bottom: 5px;
-  font-weight: 500;
-}
-
-.activity-card h6{
-  width: 285px;
-  height: 60px;
-  color: #113946;
-  font-weight: 400;
-}
-
-#price{
-  color: #717171;
-}
-
-.activity-card img{
-  width: 285px;
-  height: 200px;
-  border-radius: 10px;
-}
-
-@media screen and (max-width: 991px) {
-  aside{
-    margin: 0px 58px;
-    display: block; 
-  }
-  .filter-column{
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-    z-index: 999;
-  }
-  .filter{
-    position: relative;
-    top: 25%;
+@media screen and (max-width: 480px) {
+  #open-filter{
+    margin-left: 0px;
   }
 }

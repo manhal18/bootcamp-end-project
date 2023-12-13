@@ -1,0 +1,275 @@
+{
+	"info": {
+		"_postman_id": "09728b99-b660-4048-b54f-8861503ecd49",
+		"name": "erciyes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28918138"
+	},
+	"item": [
+		{
+			"name": "category",
+			"item": [
+				{
+					"name": "all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{root}}/api/categories",
+							"host": [
+								"{{root}}"
+							],
+							"path": [
+								"api",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "activity",
+			"item": [
+				{
+					"name": "all",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{root}}/api/activities",
+							"host": [
+								"{{root}}"
+							],
+							"path": [
+								"api",
+								"activities"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{root}}/api/activities/2",
+							"host": [
+								"{{root}}"
+							],
+							"path": [
+								"api",
+								"activities",
+								"2"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "2",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "coming activities",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{root}}/api/activities/date/coming",
+							"host": [
+								"{{root}}"
+							],
+							"path": [
+								"api",
+								"activities",
+								"date",
+								"coming"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "coming activities categories filter",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{root}}/api/activities/date/coming/1/?selectedPrice=0~500",
+							"host": [
+								"{{root}}"
+							],
+							"path": [
+								"api",
+								"activities",
+								"date",
+								"coming",
+								"1",
+								""
+							],
+							"query": [
+								{
+									"key": "selectedPrice",
+									"value": "0~500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "past activities",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{root}}/api/activities/date/past",
+							"host": [
+								"{{root}}"
+							],
+							"path": [
+								"api",
+								"activities",
+								"date",
+								"past"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "past activities categories filter Copy",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{root}}/api/activities/date/past/1/?selectedPrice=0~500",
+							"host": [
+								"{{root}}"
+							],
+							"path": [
+								"api",
+								"activities",
+								"date",
+								"past",
+								"1",
+								""
+							],
+							"query": [
+								{
+									"key": "selectedPrice",
+									"value": "0~500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{root}}/api/activities/search/k",
+							"host": [
+								"{{root}}"
+							],
+							"path": [
+								"api",
+								"activities",
+								"search",
+								"k"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "popular",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{root}}/api/activities/popular/sevilen",
+							"host": [
+								"{{root}}"
+							],
+							"path": [
+								"api",
+								"activities",
+								"popular",
+								"sevilen"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
